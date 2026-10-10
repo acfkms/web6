@@ -1,0 +1,8 @@
+<h2>список курсу \ course list</h2>
+<div class="course-list">
+  <div class="course-card" *ngFor="let course of courses()">
+    <h3>{{ course.title }}</h3>
+    <p><strong>вчитель \ teacher ---</strong> {{ course.teacher }}</p>
+    <a [routerLink]="['/course', course.id]">детальніше \ view details</a>
+  </div>
+</div>

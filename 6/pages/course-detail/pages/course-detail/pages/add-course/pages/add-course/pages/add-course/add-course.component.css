@@ -1,0 +1,40 @@
+h2 {
+  color: #37353E;
+  margin-bottom:auto;
+}
+.form-group {
+  margin-bottom:auto;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom:auto;
+}
+input,
+textarea {
+  width:auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.error {
+  color: ##6D0808;
+  margin-top:auto;
+}
+.error small {
+  display: block;
+}
+button {
+  padding: 10px 20px;
+  background-color: #715A5A;
+  color: #D3DAD9;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+button:hover {
+  background-color: #44444E;
+}

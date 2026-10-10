@@ -1,0 +1,33 @@
+.course-detail {
+  max-width: 600px;
+  margin:auto;
+  padding: 1rem;
+}
+.course-detail h2 {
+  color: #37353E;
+  margin-bottom:auto;
+}
+.course-detail p {
+  color: #44444E;
+  margin:auto;
+}
+.not-found {
+  text-align: center;
+  padding: 2rem;
+  background-color: #FCF0DA;
+  border: 1px solid #D3DAD9;
+  border-radius: 8px;
+}
+.not-found h2 {
+  color: #6D0808;
+}
+.back-link {
+  display: inline-block;
+  margin-top:auto;
+  color: #715A5A;
+  text-decoration: none;
+  font-weight: 500;
+}
+.back-link:hover {
+  text-decoration: underline;
+}

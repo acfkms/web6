@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  min-height:auto;
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #37353E;
+  color: #D3DAD9;
+  padding: 1rem 2rem;
+}
+header h1 {
+  margin:auto;
+  font-size: 1.5rem;
+}
+nav {
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+nav a:hover {
+  background-color: #44444E;
+}
+nav a.active {
+  background-color: #715A5A;
+}
+main {
+  flex:auto;
+  padding: 2rem;
+  max-width: 900px;
+  margin:auto;
+  width:auto;
+  box-sizing: border-box;
+}

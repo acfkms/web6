@@ -1,0 +1,17 @@
+<header>
+  <h1>каталог курсу \ course catalog</h1>
+  <nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        головна \ home
+    </a>
+    <a routerLink="/courses" routerLinkActive="active">
+        курси \ courses
+    </a>
+    <a routerLink="/courses/add" routerLinkActive="active">
+       додати курс \ add course
+    </a>
+  </nav>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main

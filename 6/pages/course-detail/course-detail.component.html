@@ -1,0 +1,13 @@
+<div *ngIf="course; else notFound" class="course-detail">
+  <h2>{{ course.title }}</h2>
+  <p><strong>вчитель \ teacher:</strong> {{ course.teacher }}</p>
+  <p><strong>опис \ description:</strong> {{ course.description }}</p>
+  <a routerLink="/courses" class="back-link">назад \ back to list</a>
+</div>
+<ng-template #notFound>
+  <div class="not-found">
+    <h2>курс не знайдено \ course not found</h2>
+    <p>no course with id {{ id }} exists in the catalog.</p>
+    <a routerLink="/courses" class="back-link">назад \ back to list</a>
+  </div>
+</ng-template>
